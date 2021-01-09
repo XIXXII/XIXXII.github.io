@@ -1,0 +1,94 @@
+.heading{
+  margin:5%;
+  border: 3px solid green;
+  color: green;
+  font-family: fantasy;
+  background:yellow;
+  font-size:50px;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  text-shadow:5px 10px 5px black;
+  box-shadow: 5px 10px 5px purple;
+}
+.block{
+  width: 100%;
+  height:300px;
+  margin:2%;
+  border: 3px solid lightblue;
+  display: block;
+  overflow: hidden;
+}
+.subblock1{
+  float: left;
+  width:19%;
+  height:250px;
+  margin-top:2%;
+  margin-bottom:2%;
+  margin-left: 1%;
+}
+.subblock2{
+  float: left;
+  width:19%;
+  height:250px;
+  margin-top:2%;
+  margin-bottom:2%;
+  margin-left: 1%;
+}
+.subblock3{
+  float: left;
+  width:19%;
+  height:250px;
+  margin-top:2%;
+  margin-bottom:2%;
+  margin-left: 1%;
+}
+.subblock4{
+  float: left;
+  width:19%;
+  height:250px;
+  margin-top:2%;
+  margin-bottom:2%;
+  margin-left: 1%;
+}
+.subblock5{
+  float: left;
+  width:19%;
+  height:250px;
+  margin-top:2%;
+  margin-bottom:2%;
+  margin-left: 1%;
+}
+.image1{
+  width:90%;
+  height:100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px red;
+}
+.text{
+  border: 5px solid pink;
+  height:20%;
+  color: red;
+  font-family: serif;
+  background:white;
+  font-size:20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  text-shadow:5px 10px 5px pink;
+  box-shadow: 5px 10px 5px lightyellow;
+}
+.button{
+  background-color: royalblue;
+  border-radius:10px;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+a{
+  color: rgb(10, 20, 200);
+}
