@@ -83,6 +83,10 @@ textarea{
   margin-top: 15%;
   text-align: center;
 }
+.footer{
+  font-size: 12px;
+  font-weight: bold;
+}
 a{
   color: darkslateblue;
 }
