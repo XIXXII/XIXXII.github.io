@@ -43,6 +43,7 @@ h1{
   transform-origin: center left;
   animation: hourRotate;
   animation-duration: 10s;
+  animation-fill-mode: forwards;
 }
 @keyframes minRotate {
   0%{transform: rotate(-90deg);}
