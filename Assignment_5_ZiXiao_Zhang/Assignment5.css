@@ -1,0 +1,143 @@
+body{
+  background: #FFE4E1;
+}
+.mainWindow{
+  margin: 2%;
+  width: 45%;
+  height: 500px;
+  border: 2px solid #DC143C;
+  border-radius: 15px;
+  float: left;
+}
+.mainWindow img{
+  border-radius: 20px;
+  width:50%;
+  height:60%;
+  margin-top:6%;
+  margin-left:25%;
+}
+.mainWindow p{
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  color: #4B0082;
+  font-size: 15px;
+}
+.click{
+  display: block;
+  background-color: #DDA0DD;
+  width:150px;
+  padding: 10px 24px;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+.modalWindow1{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(70, 130, 180, 0.7);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalWindow1:target{
+  opacity: 1;
+  pointer-events: all;
+}
+.block1{
+  position: relative;
+  width:60%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  background: #F7CAC9;
+  text-align: center;
+  border-radius: 15px;
+}
+h1{
+  color:white;
+  background: PaleVioletRed;
+  text-align: left;
+  height:10%;
+  padding: 6px 10px;
+}
+.sub{
+  width: 90%;
+  height: 15%;
+  text-align: center;
+  background: PaleVioletRed;
+  margin:4%;
+  padding:  1px 2px;
+}
+.sub1{
+  margin-top: 3%;
+  border-radius: 10px;
+  width:50%;
+  height:45%;
+  margin-left: 10%;
+  float: left;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.close{
+  float:right;
+  margin-top: 15%;
+  margin-right: 15%;
+  background-color: #F08080;
+  color: white;
+  padding: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.modalWindow2{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(136, 176, 75, 0.7);
+  opacity: 0;
+  pointer-events: none;
+}
+.modalWindow2:target{
+  opacity: 1;
+  pointer-events: all;
+}
+.block2{
+  position: relative;
+  width:60%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  background: #ADD8E6;
+  text-align: center;
+  border-radius: 15px;
+}
+.sub2{
+  float: left;
+  margin-top: 1%;
+  border-radius: 10px;
+  width:50%;
+  height:49%;
+  margin-left: 23%;
+}
+.close2{
+  position: absolute;
+  right:0%;
+  top: 0%;
+  padding:4px;
+  background-color: white;
+  text-decoration: none;
+  font-family: serif;
+}
