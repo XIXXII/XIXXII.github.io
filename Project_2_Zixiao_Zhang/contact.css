@@ -1,0 +1,93 @@
+body{
+  background: #ebcfc4;
+}
+h1{
+  margin-left: 5%;
+  margin-top: 5%;
+  color:#706897;
+  letter-spacing: 2px;
+  font-family: monospace;
+}
+div{
+  width: 100%;
+  margin-bottom: 30px;
+}
+img{
+  vertical-align: middle;
+  width:30px;
+  height:30px;
+  margin-left: 5%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  color: #706897;
+}
+.footer{
+  float:left;
+  width: 99%;
+  height:450px;
+  margin-left:0.5%;
+  background-color: #ebcfc4;
+}
+.footer a{
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  font-size:17px;
+  float:left;
+  width:18%;
+  margin-top: 3%;
+  color: black;
+}
+nav{
+  height:120px;
+}
+.footer p{
+  text-align: center;
+  font-size:12px;
+  float:left;
+  width:18%;
+  margin-bottom: 0%;
+  color: black;
+  font-weight: lighter;
+}
+.footer hr{
+  border: 1px solid black;
+  width: 85%;
+}
+.footer h2{
+  text-align: right;
+  color: black;
+  margin-right: 8%;
+  margin-top: 4%;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.media{
+  float:right;
+  margin-right: 8%;
+  width:30%;
+  height: 50px;
+}
+.icon{
+  float:right;
+  width:15%;
+  height:100%;
+  margin-right: 2%;
+}
+.icon img{
+  width:450%;
+  height:100%;
+}
+.bottom{
+  height:50px;
+  margin-bottom: 5%;
+  margin-top:190px;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+}
